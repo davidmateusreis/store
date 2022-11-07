@@ -1,0 +1,46 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Nintendo Wii",
+      "brand": "Nintendo",
+      "category": "Console",
+      "price": "199"
+    },
+    {
+      "id": 2,
+      "name": "Nintendo Wii U",
+      "brand": "Nintendo",
+      "category": "Console",
+      "price": "299"
+    },
+    {
+      "id": 3,
+      "name": "Nintendo Switch",
+      "brand": "Nintendo",
+      "category": "Console",
+      "price": "399"
+    },
+    {
+      "id": 4,
+      "name": "Nintendo DS",
+      "brand": "Nintendo",
+      "category": "Handheld",
+      "price": "199"
+    },
+    {
+      "id": 5,
+      "name": "Nintendo 2DS",
+      "brand": "Nintendo",
+      "category": "Handheld",
+      "price": "299"
+    },
+    {
+      "id": 6,
+      "name": "Nintendo 3DS",
+      "brand": "Nintendo",
+      "category": "Handheld",
+      "price": "299"
+    }
+  ]
+}
