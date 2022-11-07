@@ -20,6 +20,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ClientListComponent } from './client-list/client-list.component';
+import { PopupClientComponent } from './popup-client/popup-client.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ProductListComponent,
     PopupComponent,
     MenuComponent,
-    DashboardComponent
+    DashboardComponent,
+    ClientListComponent,
+    PopupClientComponent
   ],
   imports: [
     BrowserModule,

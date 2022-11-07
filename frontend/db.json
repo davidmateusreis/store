@@ -42,5 +42,49 @@
       "category": "Handheld",
       "price": "299"
     }
+  ],
+  "client": [
+    {
+      "id": 1,
+      "name": "Eren Yeager",
+      "email": "eren@email.com",
+      "password": "123456",
+      "address": "Shiganshina"
+    },
+    {
+      "id": 2,
+      "name": "Armin Arlert",
+      "email": "armin@email.com",
+      "password": "123456",
+      "address": "Shiganshina"
+    },
+    {
+      "id": 3,
+      "name": "Mikasa Ackerman",
+      "email": "mikasa@email.com",
+      "password": "123456",
+      "address": "Shiganshina"
+    },
+    {
+      "id": 4,
+      "name": "Erwin Smith",
+      "email": "erwin@email.com",
+      "password": "123456",
+      "address": "Shiganshina"
+    },
+    {
+      "id": 5,
+      "name": "Hange Zoe",
+      "email": "hange@email.com",
+      "password": "123456",
+      "address": "Shiganshina"
+    },
+    {
+      "id": 6,
+      "name": "Levi Ackerman",
+      "email": "levi@email.com",
+      "password": "123456",
+      "address": "Shiganshina"
+    }
   ]
 }
