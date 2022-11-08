@@ -112,5 +112,23 @@
       "id": 6,
       "name": "Bandai"
     }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Console"
+    },
+    {
+      "id": 2,
+      "name": "Handheld"
+    },
+    {
+      "id": 3,
+      "name": "Accessory"
+    },
+    {
+      "id": 4,
+      "name": "Game"
+    }
   ]
 }

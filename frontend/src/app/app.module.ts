@@ -24,6 +24,8 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { PopupClientComponent } from './popup-client/popup-client.component';
 import { BrandListComponent } from './brand-list/brand-list.component';
 import { PopupBrandComponent } from './popup-brand/popup-brand.component';
+import { CategoryListComponent } from './category-list/category-list.component';
+import { PopupCategoryComponent } from './popup-category/popup-category.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { PopupBrandComponent } from './popup-brand/popup-brand.component';
     ClientListComponent,
     PopupClientComponent,
     BrandListComponent,
-    PopupBrandComponent
+    PopupBrandComponent,
+    CategoryListComponent,
+    PopupCategoryComponent
   ],
   imports: [
     BrowserModule,
