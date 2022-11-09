@@ -5,6 +5,7 @@ import { CategoryListComponent } from './category-list/category-list.component';
 import { CityListComponent } from './city-list/city-list.component';
 import { ClientListComponent } from './client-list/client-list.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { StateListComponent } from './state-list/state-list.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,9 @@ const routes: Routes = [
   },
   {
     path: 'city-list', component: CityListComponent
+  },
+  {
+    path: 'state-list', component: StateListComponent
   }
 ];
 

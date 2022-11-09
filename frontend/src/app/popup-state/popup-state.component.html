@@ -1,0 +1,18 @@
+<form class="example-form" [formGroup]="stateForm" (ngSubmit)="saveState()">
+
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Abbreviation</mat-label>
+        <input matInput placeholder="Abbreviation" formControlName="abbreviation">
+    </mat-form-field>
+
+    <div>
+        <button mat-raised-button color="primary">Save</button>
+        <a (click)="closePopup()" mat-raised-button color="accent">Close</a>
+    </div>
+
+</form>
