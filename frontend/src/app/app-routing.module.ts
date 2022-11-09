@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrandListComponent } from './brand-list/brand-list.component';
 import { CategoryListComponent } from './category-list/category-list.component';
+import { CityListComponent } from './city-list/city-list.component';
 import { ClientListComponent } from './client-list/client-list.component';
 import { ProductListComponent } from './product-list/product-list.component';
 
@@ -17,6 +18,9 @@ const routes: Routes = [
   },
   {
     path: 'category-list', component: CategoryListComponent
+  },
+  {
+    path: 'city-list', component: CityListComponent
   }
 ];
 

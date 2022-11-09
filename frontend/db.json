@@ -130,5 +130,23 @@
       "id": 4,
       "name": "Game"
     }
+  ],
+  "city": [
+    {
+      "id": 1,
+      "name": "Araxá"
+    },
+    {
+      "id": 2,
+      "name": "Belo Horizonte"
+    },
+    {
+      "id": 3,
+      "name": "Uberlândia"
+    },
+    {
+      "id": 4,
+      "name": "Uberaba"
+    }
   ]
 }

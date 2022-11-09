@@ -26,6 +26,8 @@ import { BrandListComponent } from './brand-list/brand-list.component';
 import { PopupBrandComponent } from './popup-brand/popup-brand.component';
 import { CategoryListComponent } from './category-list/category-list.component';
 import { PopupCategoryComponent } from './popup-category/popup-category.component';
+import { CityListComponent } from './city-list/city-list.component';
+import { PopupCityComponent } from './popup-city/popup-city.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { PopupCategoryComponent } from './popup-category/popup-category.componen
     BrandListComponent,
     PopupBrandComponent,
     CategoryListComponent,
-    PopupCategoryComponent
+    PopupCategoryComponent,
+    CityListComponent,
+    PopupCityComponent
   ],
   imports: [
     BrowserModule,
